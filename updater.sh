@@ -1,12 +1,13 @@
-#! bin/bash
+#! /bin/bash
 
 #this program need root 
 
-echo "this program need root "
-echo "preparing update"
+echo "UPDATER:this program need root "
+echo "UPDATER:preparing update"
 sleep 5
 sudo apt-get update
-echo "updateing"
+echo "UPDATER:updateing"
+sleep 5
 sudo apt-get upgrade
-echo "update is done please reboot"
+echo "UPDATER:update is done please reboot"
 exit
