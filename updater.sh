@@ -6,8 +6,8 @@ echo "UPDATER:this program need root "
 echo "UPDATER:preparing update"
 sleep 5
 sudo apt-get update
-echo "UPDATER:updateing"
+echo "UPDATER:list updating"
 sleep 5
 sudo apt-get upgrade
-echo "UPDATER:update is done please reboot"
+echo "UPDATER:update is done. please reboot"
 exit
